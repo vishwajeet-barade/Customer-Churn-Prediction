@@ -10,9 +10,10 @@ This project focuses on predicting customer churn using machine learning techniq
 
 ## Error Analysis
 
-Type I Error (False Positive): The model incorrectly predicts that a customer will churn when they actually stay.
+Our Model Predict 0 well , but when churn is in actually 1 it not that much able to predict correct .
 
-Type II Error (False Negative): The model incorrectly predicts that a customer will stay when they actually churn. The model struggles to predict churn = 1 correctly, likely due to class imbalance in the dataset.
+It may happen due to imbalance data .
+
 
 ## Oversampling & Performance Improvement
 
